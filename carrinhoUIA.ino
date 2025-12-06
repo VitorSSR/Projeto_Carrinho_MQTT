@@ -5,8 +5,8 @@
 #define Sentido1MotorB D5
 #define Sentido2MotorB D7
 const char* ssid = "mqtt";
-const char* passwd = "liviaeuia";
-const char* broker_topic = "WILL/teste";
+const char* passwd = "SENHA";
+const char* broker_topic = "Nome_Wifi";
 const char* mqtt_server = "broker.emqx.io";
 const char* espID = "CARRINHO-UIA";
 const int port = 1883;
@@ -110,3 +110,4 @@ void loop() {
   }
   mqttClient.loop();
 }
+
